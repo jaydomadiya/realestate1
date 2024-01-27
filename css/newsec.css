@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* image filter block css code */
+.imgfilter {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  gap: 9px;
+}
+
+.img-wrapper {
+  cursor: pointer;
+  width: 250px;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 9px;
+}
+
+.imgfilter_grediant {
+  height: 340px;
+  background-image: linear-gradient(to bottom, #9ac5f9, #d1effb, #e2f3f4, #ecf5f2, #f5f6f5);
+  transition: 0.6s;
+}
+
+
+
+.imgfilter_grediant:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.imgfilter_text {
+  height: 70px;
+  padding: 20px;
+}
+.imgfilter_text-appartment{
+  height: 90px;
+}
+.imgfilter_text-flate {
+  height: 110px;
+}
+
+.imgfilter_text-villa {
+  height: 40px;
+}
+
+.imgfilter_text-flatecount {
+  font-size: xx-large;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+.imgfilter_text-name {
+  font-size: large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inner-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-wrapper {
+  display: inline-block;
+  box-sizing: border-box;
+}
+.prolisted{
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(30, 112, 244);
+  
+}
+
+/* BHK block css code  */
+
+.bhkdiv {
+  background:#ececec94;
+  height: 150px;
+  width: 100%;
+  /* background-color: #57CCE5; */
+  display: flex;
+    justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+.bhkboxs {
+  cursor: pointer;
+  transition: 0.6s;
+  height: 100px;
+  width: 150px;
+  /* color: black; */
+  background: #fff;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.bhkboxs:hover {
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+  /* color: rgb(81, 81, 239); */
+}
+
+.bhkfilterinnertxt {
+  padding: 6px;
+}
+.bhkfilterinnertxt-innertxt{
+  color:black;
+  font-weight: bolder;
+}
+.bhkfilterinnertxt-innertxt2{
+  color: black;
+}
+
+.bhknames {
+  color: black;
+}
+
+/* register banner css code  */
+.register_banner-main-div {
+  display: flex;
+  justify-content: center;
+}
+
+.register_banner-div {
+  height: 500px;
+  width: 50%;
+  background: #f8f1e1;
+  border-radius: 8px;
+  display: flex;
+  padding: 20px;
+}
+
+.register_banner-leftside {
+  width: 50%;
+}
+
+.register_banner-ftext {
+  padding-top: 20px;
+  font-size: medium;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #8993A4;
+}
+
+.register_banner-stextdiv {
+  padding-top: 25px;
+}
+
+.register_banner-stext1 {
+  width: 400px;
+  font-size: xx-large;
+  font-weight: bold;
+
+}
+
+.register_banner-freeicon {
+  height: 30px;
+  width: 80px;
+  padding: 3px;
+  color: white;
+  background-color: #219653;
+  border: 2px solid #219653;
+  border-radius: 6px;
+  font-size: large;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.register_banner-stext2 {
+  padding-top: 25px;
+  font-size: larger;
+  font-family: sans-serif;
+}
+
+.register-banner-count {
+  padding-top: 45px;
+  display: flex;
+  gap: 20px;
+}
+
+.rbanner-count-text-1 {
+  font-size: xx-large;
+}
+
+.rbanner-count-text-2 {
+  font-size: medium;
+}
+
+.rbanner-count-3 {
+  width: 120px;
+}
+
+.register-banner-btn-maindiv {
+  padding-top: 50px;
+}
+
+.register-banner-btn {
+  width: 300px;
+  height: 60px;
+  border-radius: 9px;
+  border-color: #0078DB;
+  background-color: #076cbf;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.register-banner-btn:hover {
+  background-color: #06508d;
+}
+
+.register-banner-othermsg-txt {
+  padding-top: 10px;
+  gap: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.rbanner-whatsapp-svg {
+  height: 23px;
+}
+
+.register_banner-rightside {
+  width: 50%;
+  overflow: hidden;
+}
